@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+<Document name="appmsw-zapp.ZPM">
+<Module>
+ <Name>appmsw-zapp</Name>
+  <Version>1.0.0</Version>
+  <Description>ZAPP extending the ZPM commands, the standard ZPM commands also work as from the zpm shell.</Description>
+  <Packaging>module</Packaging>
+  <SourcesRoot>./</SourcesRoot> 
+  <Resource Name="zapp.PKG"/> 
+</Module>
+</Document>
+</Export>
