@@ -1,12 +1,13 @@
-![](https://github.com/SergeyMi37/apptools-zapp/blob/master/doc/hammer-red.png)
-## apptools-zapp
-[![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/apptools-zapp-1)
+![](https://github.com/SergeyMi37/appmsw-zapp/blob/master/doc/hammer-red.png)
+
+## appmsw-zapp
+[![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/appmsw-zapp-1)
 
 ZAPP extending the ZPM commands, the standard ZPM commands also work as from the zpm shell.
 
 ## Installation with ZPM
 
-zpm:USER>install apptools-zapp
+zpm:USER>install appmsw-zapp
 
 ## Installation with Docker
 
@@ -17,7 +18,7 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 Clone/git pull the repo into any local directory
 
 ```
-$ git clone https://github.com/SergeyMi37/apptools-zapp.git
+$ git clone https://github.com/SergeyMi37/appmsw-zapp.git
 ```
 
 Open the terminal in this directory and run:
@@ -39,7 +40,7 @@ Open IRIS terminal:
 $ docker-compose exec iris iris session iris
 USER>
 USER>zpm
-zpm:USER>install apptools-zapp
+zpm:USER>install appmsw-zapp
 ```
 
 
